@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: coral;
+  height: 100vh;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.white-key {
+  width: 40px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.black-key {
+  position: absolute;
+  width: 30px;
+  height: 130px;
+  background-color: black;
+}
+
+#cs {
+  left: 26px;
+}
+
+#ds {
+  left: 69px;
+}
+
+#fs {
+  left: 26px;
+}
+
+#gs {
+  left: 69px;
+}
+
+#as {
+  left: 111px;
+}
+
+
